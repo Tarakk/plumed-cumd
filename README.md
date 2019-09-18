@@ -8,3 +8,5 @@ To install PLUMED please visit the official PLUMED website: https://github.com/p
 
 The codes can be found in the 'codes' folder, while the 'examples' folder contains GROMACS-PLUMED input files.
 A README file containing instructions is also provided.
+
+(It is to be noted that, the current version is a development version; changes will be made in order to improve the method and code.)
