@@ -1,4 +1,4 @@
-# plumed-cumd
+# plumed-cumd (Spherical model)
 Constant Chemical Potential Molecular Dynamics Simulations
 
 This repository contains codes and input files required to run CmuMD nucleation simulations. 
