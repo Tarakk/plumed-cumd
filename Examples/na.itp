@@ -1,0 +1,25 @@
+
+[ defaults ]
+; nbfunc        comb-rule       gen-pairs       fudgeLJ fudgeQQ
+1               2               yes             0.5     0.83333
+
+[ atomtypes ]
+;name   bond_type     mass     charge   ptype   sigma         epsilon       Amb
+ Na       Na          0.00000  0.00000   A     2.16000e-01   1.4754533e+00  ; 1.91  0.0860
+ Cl       Cl          0.00000  0.00000   A     4.83000e-01   0.0534924e+00  ; 1.91  0.0860
+; spc water - use only with spc.itp & settles
+OW_spc       8      15.9994  0.0000  A   3.16557e-01  6.50629e-01
+HW_spc       1       1.0080  0.0000  A   0.00000e+00  0.00000e+00
+
+
+[ moleculetype ]
+;name            nrexcl
+ NA               1
+
+[ atoms ]
+;   nr  type  resi  res  atom  cgnr     charge      mass       ; qtot   bond_type
+     1    Na     1   NA    Na    1     1.0000       22.98980   ; qtot 1.00
+
+[ system ]
+ NA
+

@@ -1,0 +1,12 @@
+#include "./na.itp"
+#include "./cl.itp"
+#include "./spce.itp"
+
+[ system ]
+NaCl+wat
+
+[ molecules ]
+; name  number
+NA       1000
+CL       1000
+SOL      6000
